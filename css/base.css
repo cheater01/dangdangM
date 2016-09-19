@@ -1,0 +1,96 @@
+body,div,img,ul,li,input,a,span,i,p,
+::after,
+::before
+{
+    margin: 0px;
+    padding: 0px;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-box-sizing: border-box;
+}
+
+body
+{
+    font-family: "Microsoft YaHei", "sans-serif";
+    font-size: 14px;
+    color: #333;
+    position: relative;
+    /*height: 8000px;*/
+}
+
+ul
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+}
+
+input,textarea
+{
+    border: 0;
+    outline: none;
+    resize: none;
+    -webkit-appearance:none;
+}
+
+img
+{
+    vertical-align: middle;
+    border: 0;
+}
+
+/*common*/
+.clearfix::after,
+.clearfix::before
+{
+    content: '.';
+    display: block;
+    visibility: hidden;
+    height: 0;
+    line-height: 0;
+    clear: both;
+}
+.fl
+{
+    float: left;
+}
+.fr
+{
+    float: right;
+}
+
+.width100
+{
+    width: 100%;
+
+}
+.hide
+{
+   display: none;
+}
+
+.color-white
+{
+    background-color: white;
+}
+.border-left
+{
+    border-left: 1px solid #ccc;
+}
+.border-right
+{
+    border-right: 1px solid #ccc;
+}
+.border-top
+{
+    border-top: 1px solid #ccc;
+}
+.border-bottom
+{
+    border-bottom: 1px solid #ccc;
+}
+
+
+
+

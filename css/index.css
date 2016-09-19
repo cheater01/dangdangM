@@ -1,0 +1,418 @@
+.layout
+{
+    min-width: 300px;
+    max-width: 640px;
+    background-color: #EEEEEE;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+/*S-¹ã¸æÒ³Ãæ*/
+#ad
+{
+    position: relative;
+
+}
+
+
+
+
+    
+
+#ad img
+{
+    float: left;
+    width: 50%;
+}
+#ad i
+{
+    position: absolute;
+    width: 1px;
+    height: 60%;
+    background-color: #EEEEEE;
+    top: 20%;
+    left:50%;
+}
+#closeAd
+{
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    top: 10px;
+    right:0;
+
+}
+
+
+/*S-search*/
+.search
+{
+    position: relative;
+    height: 60px;
+
+}
+.search .logo
+{
+    position: absolute;
+    background: url("../images/dd-logo.png") no-repeat 0 0;
+    width: 59px;
+    height: 42px;
+    background-size: 70%;
+    top: 12px;
+    left: 14px;
+}
+.search form
+{
+    position: relative;
+    padding-top: 10px;
+    padding-left: 76px;
+    padding-right: 68px;
+
+
+
+
+}
+.search form input[type='search']
+{
+    height: 30px;
+    width: 100%;
+    font-size: 20px;
+    line-height: 20px;
+    background-color:#E4E4E6;
+    border-radius: 30px;
+    padding-left: 17px;
+    color: #BBABA8;
+
+}
+.search form a
+{
+    position: absolute;
+    background: url("../images/search-btn.png") no-repeat 3px 3px red;
+    width: 40px;
+    height: 30px;
+    top: 10px;
+    right: 40px;
+    border-radius:0 30px 30px 0;
+
+
+}
+.search .header-category
+{
+    position: absolute;
+    top: 12px;
+    right: 2px;
+}
+
+.search .header-category i
+{
+    display: block;
+    background: url("../images/header-category.png") no-repeat;
+    width: 27px;
+    height: 26px;
+    background-size: contain;
+}
+.search .header-category p
+{
+    text-align: center;
+}
+
+.ad
+{
+
+    margin: 9px 7px 0px 7px;
+    overflow: hidden;
+    position: relative;
+
+}
+.ad .banner-ul
+{
+
+    width: 1000%;
+    position: relative;
+    left: 0;
+    transition: left 1s;
+    -webkit-transition: left 1s;
+
+}
+.ad .banner-ul li
+{
+    float:left;
+    width: 10%;
+}
+
+.ad .banner-ul li img
+{
+    width: 100%;
+    display: block;
+}
+
+
+.nav
+{
+    /*height: 200px;*/
+    /*background-color: red;*/
+    margin: 0 7px 0 7px;
+    padding-bottom: 10px;
+}
+.nav ul
+{
+    width: 100%;
+}
+
+.nav ul li
+{
+    float: left;
+    width: 25%;
+    margin-top: 10px;
+}
+.nav ul li a
+{
+    width: 100%;
+}
+.nav ul li a img
+{
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+
+}
+.nav ul li a p
+{
+    padding-top: 5px;
+    text-align: center;
+    color: #4D525D;
+}
+
+
+.banner
+{
+    margin: 7px;
+}
+.banner img
+{
+    width: 100%;
+}
+
+.seckilling{
+
+    margin: 0 7px 0 7px;
+
+
+}
+.seckilling .seckilling-header
+{
+    height: 53px;
+    padding-top: 14px;
+    padding-left: 14px;
+
+}
+.seckilling .seckilling-header div
+{
+    float: left;
+}
+
+.seckilling .seckilling-header .seckfont
+{
+    font-size: 22px;
+    padding-right: 18px;
+    
+}
+
+.seckilling .seckilling-header .clock
+{
+
+    background: url("../images/seckilling-alarm.png") no-repeat;
+    width: 26px;
+    height:24px;
+    background-size: contain;
+
+}
+.seckilling .seckilling-header .secktime ul
+{
+    padding-left: 4px;
+}
+.seckilling .seckilling-header .secktime ul li
+{
+    float: left;
+    width: 16px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 22px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    margin-right: 1px;
+
+}
+#h0,
+#h1,
+#m0,
+#m1,
+#s0,
+#s1
+{
+    background-color:black;
+    color: white;
+    border-radius: 4px;
+
+}
+.seckilling .seckilling-box
+{
+
+    /*padding-top: 10px;*/
+    width: 100%;
+}
+
+.seckilling .seckilling-box ul
+{
+    width: 100%;
+
+}
+
+.seckilling .seckilling-box ul li
+{
+    float: left;
+    width: 33.3%;
+    /*margin-right: 5px;*/
+    text-align: center;
+
+}
+.seckilling .seckilling-box ul li img
+{
+    width: 100%;
+    height: 100%;
+
+}
+.seckilling .seckilling-box ul li p
+{
+    color: #FE435D;
+}
+
+.products .pro-header
+{
+    position: relative;
+    margin: 0 7px;
+    padding-top: 10px;
+}
+.products .pro-header p
+{
+    float: left;
+    font-size: 22px;
+}
+.products .pro-header a
+{
+    float: right;
+    font-size: 17px;
+    color: #FC515D;
+    padding-top: 5px;
+    padding-right: 20px;
+}
+.products .pro-header a:after
+{
+    position: absolute;
+    content: ">";
+    width: 17px;
+    height: 17px;
+    line-height: 17px;
+    color:  white;
+    background-color:#FC515D ;
+    top: 19px;
+    right: 0;
+}
+
+.products .pro-box
+{
+    margin: 0 7px;
+    /*width: 100%;*/
+}
+.products .pro-box .pro-left
+{
+    float: left;
+    width: 50%;
+
+}
+.products .pro-box .pro-right
+{
+    float: right;
+    width: 50%;
+
+}
+.products .pro-box img
+{
+    width: 100%;
+}
+
+.products .pro-box .pro-b1 a
+{
+   float: left;
+    width: 33.3%;
+
+}
+
+.footer
+{
+    padding-bottom: 200px;
+}
+.footer ul
+{
+    padding: 18px 86px;
+}
+
+.footer ul li
+{
+    float: left;
+    padding-left: 20px;
+}
+
+.footer p
+{
+
+    font-size: 16px;
+    color: #ccc;
+    text-align: center;
+}
+
+.last
+{
+    position: fixed;
+    height: 37px;
+    max-width: 640px;
+    min-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    bottom: 0;
+    /*left: 0;*/
+    background-color: #EEEEEE;
+
+}
+.last ul
+{
+    width: 100%;
+    padding: 2px 0 2px 0;
+}
+
+
+.last ul li
+{
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+.last ul li a
+{
+    display: block;
+    width: 100%;
+}
+.last ul li a img
+{
+    width: 36px;
+    height: 33px;
+
+}
+
+
+
+
+
